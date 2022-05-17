@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     }
     
     func fillArray(){
-        let names = ["Alan","Stefano","Jack","Harry","Susan","Emily","Ivan","Patrick","Lisa"]
+        let names = ["Alan","Stefano","Jack","Harry","Susan","Emily","Ivan","Patrick","Lisa","Michael","Arjun"]
         
         for name in names {
             userArr.append(Person(name: name))
@@ -49,9 +49,3 @@ extension ViewController : UITableViewDelegate , UITableViewDataSource {
     }
     
 }
-//
-//extension ViewController : tblViewCellDelegate {
-//    func deneme(_ cell: tblViewCell, didTapWith viewModel: tblViewCellViewModel) {
-//
-//    }
-//}

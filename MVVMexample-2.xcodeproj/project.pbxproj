@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		713104662833B400001B2557 /* tblViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713104652833B400001B2557 /* tblViewCellViewModel.swift */; };
+		713104692833DD47001B2557 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713104682833DD47001B2557 /* Models.swift */; };
 		719148BF2832A02800FD1228 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719148BE2832A02800FD1228 /* AppDelegate.swift */; };
 		719148C12832A02800FD1228 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719148C02832A02800FD1228 /* SceneDelegate.swift */; };
 		719148C32832A02800FD1228 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719148C22832A02800FD1228 /* ViewController.swift */; };
@@ -16,11 +17,11 @@
 		719148CB2832A02A00FD1228 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 719148C92832A02A00FD1228 /* LaunchScreen.storyboard */; };
 		719148D42832A80F00FD1228 /* tblViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719148D22832A80F00FD1228 /* tblViewCell.swift */; };
 		719148D52832A80F00FD1228 /* tblViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 719148D32832A80F00FD1228 /* tblViewCell.xib */; };
-		719148D82832AD9F00FD1228 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719148D72832AD9F00FD1228 /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		713104652833B400001B2557 /* tblViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tblViewCellViewModel.swift; sourceTree = "<group>"; };
+		713104682833DD47001B2557 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		719148BB2832A02800FD1228 /* MVVMexample-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVMexample-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		719148BE2832A02800FD1228 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		719148C02832A02800FD1228 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,7 +32,6 @@
 		719148CC2832A02A00FD1228 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		719148D22832A80F00FD1228 /* tblViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tblViewCell.swift; sourceTree = "<group>"; };
 		719148D32832A80F00FD1228 /* tblViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = tblViewCell.xib; sourceTree = "<group>"; };
-		719148D72832AD9F00FD1228 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 				719148C92832A02A00FD1228 /* LaunchScreen.storyboard */,
 				719148CC2832A02A00FD1228 /* Info.plist */,
 				713104652833B400001B2557 /* tblViewCellViewModel.swift */,
-				719148D72832AD9F00FD1228 /* Models.swift */,
+				713104682833DD47001B2557 /* Models.swift */,
 			);
 			path = "MVVMexample-2";
 			sourceTree = "<group>";
@@ -154,9 +154,9 @@
 				719148C32832A02800FD1228 /* ViewController.swift in Sources */,
 				719148D42832A80F00FD1228 /* tblViewCell.swift in Sources */,
 				719148BF2832A02800FD1228 /* AppDelegate.swift in Sources */,
+				713104692833DD47001B2557 /* Models.swift in Sources */,
 				719148C12832A02800FD1228 /* SceneDelegate.swift in Sources */,
 				713104662833B400001B2557 /* tblViewCellViewModel.swift in Sources */,
-				719148D82832AD9F00FD1228 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

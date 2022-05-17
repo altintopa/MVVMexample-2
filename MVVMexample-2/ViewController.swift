@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tblView.register(UINib(nibName: "tblViewCell", bundle: nil), forCellReuseIdentifier: "cellID")
-        fillArray()()
+        fillArray()
     }
     
     func fillArray(){

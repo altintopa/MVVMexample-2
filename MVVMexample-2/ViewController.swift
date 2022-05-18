@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var tblView: UITableView!
     
     var userArr = [Person]()
+    //var userNameArr = [Person]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,9 +23,9 @@ class ViewController: UIViewController {
     
     func fillArray(){
         let names = ["Alan","Stefano","Jack","Harry","Susan","Emily","Ivan","Patrick","Lisa","Michael","Arjun"]
-        
+        //let usernames = ["TheHacker","MrWTF","CWolf","BigTim","HelloTTQ","BellArt","StanleyStan","34AqTeam","TheGod's W","PolyGun"]
         for name in names {
-            userArr.append(Person(name: name))
+            userArr.append(Person(name: name,username: "Mr.WTF"))
         }
     }
 }

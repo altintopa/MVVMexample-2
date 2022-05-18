@@ -34,7 +34,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6HM-Xe-P3V" secondAttribute="trailing" id="fos-cN-k5J"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Home" id="Ret-rC-WJN"/>
+                    <navigationItem key="navigationItem" title="Home" largeTitleDisplayMode="always" id="Ret-rC-WJN"/>
                     <connections>
                         <outlet property="tblView" destination="6HM-Xe-P3V" id="o5e-YV-c9O"/>
                     </connections>
